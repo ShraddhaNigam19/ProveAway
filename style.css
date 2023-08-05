@@ -1,0 +1,371 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  background: #ffffff;
+  width: 646px;
+  height: 748px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.sub-container {
+  width: 340.73px;
+  height: 18px;
+  position: static;
+}
+.bundle-save {
+  color: #007f61;
+  text-align: left;
+  font: 500 18.08px "Metropolis", sans-serif;
+  position: absolute;
+  left: 294px;
+  top: 126px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #c8c8c8;
+  border-width: 0.9px 0 0 0;
+  width: 94px;
+  height: 0px;
+  position: absolute;
+  left: 421.74px;
+  top: 136px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-2 {
+  border-style: solid;
+  border-color: #c8c8c8;
+  border-width: 0.9px 0 0 0;
+  width: 94px;
+  height: 0px;
+  position: absolute;
+  left: 192px;
+  top: 136px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.sub-container2 {
+  width: 340.73px;
+  height: 74.11px;
+  position: static;
+}
+.container-box1 {
+  background: #ffffff;
+  border-radius: 3.62px;
+  border-style: solid;
+  border-color: #c8c8c8;
+  border-width: 0.9px;
+  width: 340.73px;
+  height: 74.11px;
+  position: absolute;
+  left: 175px;
+  top: 166.85px;
+}
+.radio-1 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #dadada;
+  border-width: 0.9px;
+  width: 14.46px;
+  height: 14.46px;
+  position: absolute;
+  left: 190px;
+  top: 197.02px;
+  accent-color: #007f61;
+}
+._1-pair {
+  color: #000000;
+  text-align: left;
+  font: 400 14.46px "Metropolis", sans-serif;
+  position: absolute;
+  left: 227.23px;
+  top: 182.96px;
+}
+.dkk-195-00 {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Metropolis", sans-serif;
+  position: absolute;
+  left: 227.23px;
+  top: 204.08px;
+}
+._50-off {
+  color: #000000;
+  text-align: left;
+  font: 500 15px "Metropolis", sans-serif;
+  position: absolute;
+  left: 440.97px;
+  top: 196.02px;
+}
+
+.container-box2 {
+  background: #f4fbf9;
+  border-radius: 3.62px;
+  border-style: solid;
+  border-color: #007f61;
+  border-width: 0.9px;
+  width: 340.73px;
+  height: 161.78px;
+  position: relative;
+  top: 171px;
+  left: 175px;
+}
+
+.radio-2 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #007f61;
+  border-width: 0.9px;
+  width: 14.46px;
+  height: 14.46px;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  accent-color: #007f61;
+}
+._2-pair {
+  color: #000000;
+  text-align: left;
+  font: 400 14.46px "Inter", sans-serif;
+  position: relative;
+  left: 53px;
+}
+.dkk-345-00 {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: relative;
+  left: 53px;
+  top: 4px;
+}
+.size {
+  color: #000000;
+  text-align: left;
+  font: 400 9.94px "Inter", sans-serif;
+  position: relative;
+  top: 12px;
+  left: 53px;
+}
+.colour {
+  color: #000000;
+  text-align: left;
+  font: 400 9.94px "Inter", sans-serif;
+  position: relative;
+  left: 104px;
+  top: 2px;
+}
+.choose1 {
+  background: #ffffff;
+  border-radius: 1.81px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 0.9px;
+  width: 65.98px;
+  height: 25.31px;
+  position: relative;
+  left: 35px;
+  top: 8px;
+}
+
+.choose2 {
+  background: #ffffff;
+  border-radius: 1.81px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 0.9px;
+  width: 65.98px;
+  height: 25.31px;
+  position: relative;
+  top: 40px;
+  right: 35px;
+}
+.choose3 {
+  background: #ffffff;
+  border-radius: 1.81px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 0.9px;
+  width: 72.3px;
+  height: 25.31px;
+  position: relative;
+  top: 8px;
+  right: 35px;
+}
+.choose4 {
+  background: #ffffff;
+  border-radius: 1.81px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 0.9px;
+  width: 72.3px;
+  height: 25.31px;
+  position: relative;
+  top: 40px;
+  right: 111px;
+}
+.most-popular {
+  color: #007f61;
+  text-align: left;
+  font: 600 12.65px "Inter", sans-serif;
+  position: relative;
+  left: 248px;
+  bottom: 83px;
+}
+._40-off {
+  color: #000000;
+  text-align: left;
+  font: 500 15px "Inter", sans-serif;
+  position: relative;
+  left: 265px;
+  bottom: 80px;
+}
+
+.container2 .dkk-195-00 {
+  color: #000000;
+  text-align: left;
+  font: 400 9.94px "Inter", sans-serif;
+  opacity: 0.30000001192092896;
+  position: relative;
+  top: -99px;
+  left: 167px;
+}
+.line-354 {
+  border-style: solid;
+  border-color: #9f9f9f;
+  border-width: 0.68px 0 0 0;
+  width: 56.04px;
+  height: 0px;
+  position: relative;
+  left: 166px;
+
+  bottom: 105px;
+}
+._1 {
+  color: #000000;
+  text-align: left;
+  font: 400 9.04px "Inter", sans-serif;
+  position: relative;
+  left: 19px;
+  bottom: 57px;
+}
+._2 {
+  color: #000000;
+  text-align: left;
+  font: 400 9.04px "Inter", sans-serif;
+  position: relative;
+  left: 19px;
+  bottom: 35px;
+}
+.container-box3 {
+  background: #ffffff;
+  border-radius: 3.62px;
+  border-style: solid;
+  border-color: #c8c8c8;
+  border-width: 0.9px;
+  width: 340.73px;
+  height: 74.11px;
+  position: relative;
+
+  top: 190px;
+  left: 175px;
+}
+.radio-3 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #dadada;
+  border-width: 0.9px;
+  width: 14.46px;
+  height: 14.46px;
+  position: relative;
+  left: 15px;
+  top: 30px;
+}
+._3-pair {
+  color: #000000;
+  text-align: left;
+  font: 400 14.46px "Metropolis", sans-serif;
+  position: relative;
+  left: 49.23px;
+  bottom: 4px;
+}
+.dkk-528-00 {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Metropolis", sans-serif;
+  position: relative;
+  left: 50px;
+}
+._60-off {
+  color: #000000;
+  text-align: left;
+  font: 500 15px "Metropolis", sans-serif;
+  position: relative;
+  bottom: 30px;
+  left: 265px;
+}
+.free-2-day-shipping {
+  color: #007f61;
+  text-align: left;
+  font: 500 14px "Inter", sans-serif;
+  opacity: 0.6000000238418579;
+  position: relative;
+  top: 203px;
+  left: 175px;
+}
+.dkk-36000 {
+  font-weight: 500;
+}
+.total-dkk-container {
+  position: relative;
+  font-size: 14px;
+  color: #000;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  top: 187px;
+  left: 392px;
+}
+button {
+  position: relative;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #007f61;
+  width: 53%;
+  height: 48px;
+  /* color: white; */
+  top: 202px;
+  left: 175px;
+  border: 1px solid #007f61;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+.powered-by-pumper {
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  text-align: left;
+  top: 207px;
+  left: 389px;
+}
