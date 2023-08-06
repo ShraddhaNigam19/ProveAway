@@ -76,10 +76,36 @@ GREY COLOR: #343a40
   border-color: #c8c8c8;
   border-width: 0.9px;
   width: 340.73px;
-  height: 74.11px;
-  position: absolute;
+
+  position: relative;
+
+  top: 156px;
   left: 175px;
-  top: 166.85px;
+}
+
+.container-box1 .size {
+  top: -6px;
+}
+.container-box1 .colour {
+  top: -19px;
+}
+.container-box1 .choose1 {
+  top: -10px;
+}
+.container-box1 .choose2 {
+  top: 18px;
+}
+.container-box1 .choose3 {
+  top: -10px;
+}
+.container-box1 .choose4 {
+  top: 18px;
+}
+.container-box1 ._1 {
+  top: -26px;
+}
+.container-box1 ._2 {
+  top: -11px;
 }
 .radio-1 {
   border-radius: 50%;
@@ -119,13 +145,13 @@ GREY COLOR: #343a40
 }
 
 .container-box2 {
-  background: #f4fbf9;
+  background: #ffffff;
   border-radius: 3.62px;
   border-style: solid;
-  border-color: #007f61;
+  border-color: #c8c8c8;
   border-width: 0.9px;
   width: 340.73px;
-  height: 161.78px;
+
   position: relative;
   top: 171px;
   left: 175px;
@@ -229,7 +255,7 @@ GREY COLOR: #343a40
   font: 600 12.65px "Inter", sans-serif;
   position: relative;
   left: 248px;
-  bottom: 83px;
+  bottom: 38px;
 }
 ._40-off {
   color: #000000;
@@ -237,7 +263,7 @@ GREY COLOR: #343a40
   font: 500 15px "Inter", sans-serif;
   position: relative;
   left: 265px;
-  bottom: 80px;
+  bottom: 34px;
 }
 
 .container2 .dkk-195-00 {
@@ -246,8 +272,26 @@ GREY COLOR: #343a40
   font: 400 9.94px "Inter", sans-serif;
   opacity: 0.30000001192092896;
   position: relative;
-  top: -99px;
+  top: -52px;
   left: 167px;
+}
+.container-box2 .size {
+  top: -30px;
+}
+.container-box2 .colour {
+  top: -42px;
+}
+.container-box2 .choose1 {
+  top: -38px;
+}
+.container-box2 .choose2 {
+  top: -5px;
+}
+.container-box2 .choose3 {
+  top: -38px;
+}
+.container-box2 .choose4 {
+  top: -4px;
 }
 .line-354 {
   border-style: solid;
@@ -257,8 +301,7 @@ GREY COLOR: #343a40
   height: 0px;
   position: relative;
   left: 166px;
-
-  bottom: 105px;
+  bottom: 58px;
 }
 ._1 {
   color: #000000;
@@ -283,7 +326,7 @@ GREY COLOR: #343a40
   border-color: #c8c8c8;
   border-width: 0.9px;
   width: 340.73px;
-  height: 74.11px;
+
   position: relative;
 
   top: 190px;
@@ -298,7 +341,7 @@ GREY COLOR: #343a40
   height: 14.46px;
   position: relative;
   left: 15px;
-  top: 30px;
+  top: 19px;
 }
 ._3-pair {
   color: #000000;
@@ -306,7 +349,7 @@ GREY COLOR: #343a40
   font: 400 14.46px "Metropolis", sans-serif;
   position: relative;
   left: 49.23px;
-  bottom: 4px;
+  top: 0px;
 }
 .dkk-528-00 {
   color: #000000;
@@ -314,6 +357,7 @@ GREY COLOR: #343a40
   font: 500 16px "Metropolis", sans-serif;
   position: relative;
   left: 50px;
+  top: 3px;
 }
 ._60-off {
   color: #000000;
@@ -368,4 +412,29 @@ button {
   text-align: left;
   top: 207px;
   left: 389px;
+}
+.container-box3 .size {
+  top: -5px;
+}
+.container-box3 .colour {
+  top: -17px;
+}
+.container-box3 .choose1 {
+  top: -13px;
+}
+
+.container-box3 .choose2 {
+  top: 17px;
+}
+.container-box3 .choose3 {
+  top: -13px;
+}
+.container-box3 .choose4 {
+  top: 17px;
+}
+.container-box3 ._1 {
+  top: -30px;
+}
+.container-box3 ._2 {
+  top: -13px;
 }

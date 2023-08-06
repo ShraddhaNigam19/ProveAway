@@ -17,6 +17,29 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Rubik:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- ... (your existing HTML code) ... -->
+
+    <style>
+        .choose {
+            display: none;
+        }
+
+        .choose.show {
+            display: block;
+        }
+
+        .selected-container-box {
+            background: #f4fbf9;
+            border-radius: 3.62px;
+            border-style: solid;
+            border-color: #007f61;
+            border-width: 0.9px;
+        }
+    </style>
+
+
+
 </head>
 
 <body>
@@ -28,64 +51,108 @@
 
             <div class="line-2"></div>
         </div>
-        <div class="conatiner1">
-            <div class="sub-container2">
-                <div class="container-box1"></div>
 
-                <input type="radio" class="radio-1">
+        <div class="container1">
+            <div class="container-box1" data-price="195.00">
+                <input type="radio" class="radio-3">
+                <div class="_3-pair">1 Pair</div>
+                <div class="dkk-528-00">DKK 195.00</div>
+                <div class="_60-off">
+                    <span><span class="_60-off-span">50% </span><span class="_60-off-span2">off</span></span>
+                </div>
+                <div class="choose">
+                    <div class="size">Size</div>
 
-                <div class="_1-pair">1 Pair</div>
+                    <div class="colour">Colour</div>
+                    <select class="choose1">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <select class="choose2">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <select class="choose3">
+                        <option value="Color">Colour</option>
+                    </select>
+                    <select class="choose4">
+                        <option value="Color">Colour</option>
+                    </select>
 
-                <div class="dkk-195-00">DKK 195.00</div>
-
-                <div class="_50-off">
-                    <span><span class="_50-off-span">50% </span><span class="_50-off-span2">off</span></span>
+                    <div class="_1">#1</div>
+                    <div class="_2">#2</div>
                 </div>
             </div>
-        </div>
-        <div class="container2">
-            <div class="container-box2">
-                <input type="radio" class="radio-2" checked="true">
-                <div class="_2-pair">2 Pair</div>
-                <div class="dkk-345-00">DKK 345.00</div>
+            <div class="container2">
+                <div class="container-box2" data-price="345.00">
+                    <input type="radio" class="radio-2" checked>
+                    <div class="_2-pair">2 Pair</div>
+                    <div class="dkk-345-00">DKK 345.00</div>
+                    <div class="most-popular">Most Popular</div>
+                    <div class="_40-off">
+                        <span><span class="_40-off-span">40% </span><span class="_40-off-span2">off</span></span>
+                    </div>
+                    <div class="dkk-195-00">DKK 195.00</div>
+                    <div class="line-354"></div>
+                    <div class="choose">
+                        <div class="size">Size</div>
 
+                        <div class="colour">Colour</div>
+                        <select class="choose1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="choose2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select class="choose3">
+                            <option value="Color">Colour</option>
+                        </select>
+                        <select class="choose4">
+                            <option value="Color">Colour</option>
+                        </select>
 
-                <div class="size">Size</div>
-
-                <div class="colour">Colour</div>
-                <select class="choose1">
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                </select>
-                <select class="choose2">
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                </select>
-                <select class="choose3">
-                    <option value="Color">Colour</option>
-                </select>
-                <select class="choose4">
-                    <option value="Color">Colour</option>
-                </select>
-                <div class="most-popular">Most Popular</div>
-                <div class="_40-off">
-                    <span><span class="_40-off-span">40% </span><span class="_40-off-span2">off</span></span>
+                        <div class="_1">#1</div>
+                        <div class="_2">#2</div>
+                    </div>
                 </div>
-                <div class="dkk-195-00">DKK 195.00</div>
-                <div class="line-354"></div>
-                <div class="_1">#1</div>
-                <div class="_2">#2</div>
+                <div class="container3">
+                    <div class="container-box3" data-price="528.00">
+                        <input type="radio" class="radio-3">
+                        <div class="_3-pair">3 Pair</div>
+                        <div class="dkk-528-00">DKK 528.00</div>
+                        <div class="_60-off">
+                            <span><span class="_60-off-span">60% </span><span class="_60-off-span2">off</span></span>
+                        </div>
+                        <div class="choose">
+                            <div class="size">Size</div>
 
-            </div>
-            <div class="container3">
-                <div class="container-box3">
-                    <input type="radio" class="radio-3">
-                    <div class="_3-pair">3 Pair</div>
-                    <div class="dkk-528-00">DKK 528.00</div>
-                    <div class="_60-off">
-                        <span><span class="_60-off-span">60% </span><span class="_60-off-span2">off</span></span>
+                            <div class="colour">Colour</div>
+                            <select class="choose1">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                            <select class="choose2">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+                            <select class="choose3">
+                                <option value="Color">Colour</option>
+                            </select>
+                            <select class="choose4">
+                                <option value="Color">Colour</option>
+                            </select>
+
+                            <div class="_1">#1</div>
+                            <div class="_2">#2</div>
+                        </div>
                     </div>
                 </div>
 
@@ -103,7 +170,92 @@
             <i class="powered-by-pumper"> &copy; Powered by Pumper</i>
         </footer>
     </div>
+    <script>
+        function showChooseGroup(containerBox) {
+            const chooseGroup = containerBox.querySelector('.choose');
+            chooseGroup.classList.add('show');
+            containerBox.classList.add('selected-container-box');
+            updateTotal();
+        }
 
+        // Function to hide all "choose" groups and remove selected style
+        function hideAllChooseGroups() {
+            const chooseGroups = document.querySelectorAll('.choose');
+            chooseGroups.forEach(chooseGroup => {
+                chooseGroup.classList.remove('show');
+            });
+
+            const containerBoxes = document.querySelectorAll('.container-box1, .container-box2, .container-box3');
+            containerBoxes.forEach(containerBox => {
+                containerBox.classList.remove('selected-container-box');
+            });
+        }
+
+        // Function to handle click on container-boxes and update the radio buttons
+        function handleContainerBoxClick(containerBox) {
+            const radio = containerBox.querySelector('input[type="radio"]');
+            if (radio) {
+                hideAllChooseGroups();
+                showChooseGroup(containerBox);
+                radio.checked = true; // Move this line here
+
+                // Disable other radio buttons
+                const otherRadios = document.querySelectorAll('.radio-1, .radio-2, .radio-3');
+                otherRadios.forEach(otherRadio => {
+                    if (otherRadio !== radio) {
+                        otherRadio.checked = false;
+                    }
+                });
+            }
+        }
+
+        // Add event listener to the main container to handle clicks on container-boxes and radio buttons
+        const mainContainer = document.querySelector('.main-container');
+        if (mainContainer) {
+            mainContainer.addEventListener('click', (event) => {
+                const target = event.target;
+                const containerBox = target.closest('.container-box1, .container-box2, .container-box3');
+                if (containerBox) {
+                    handleContainerBoxClick(containerBox);
+                }
+            });
+        }
+
+        // Add event listener to the radio buttons to show "choose" group for the checked radio
+        const radioButtons = document.querySelectorAll('.radio-1, .radio-2, .radio-3');
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', (event) => {
+                hideAllChooseGroups();
+                const containerBox = event.target.closest('.container-box1, .container-box2, .container-box3');
+                if (containerBox && radio.checked) {
+                    showChooseGroup(containerBox);
+                }
+            });
+        });
+
+        // Initially show "choose" group for the checked radio (container-box2)
+        const checkedContainerBox = document.querySelector('.container-box2');
+        if (checkedContainerBox) {
+            const radio = checkedContainerBox.querySelector('.radio-2');
+            if (radio) {
+                radio.checked = true;
+                showChooseGroup(checkedContainerBox);
+            }
+        }
+
+        // Function to update the total based on the selected container-box
+        function updateTotal() {
+            const selectedContainerBox = document.querySelector('.selected-container-box');
+            const totalContainer = document.querySelector('.total-dkk-container .dkk-36000');
+            if (selectedContainerBox && totalContainer) {
+                const price = selectedContainerBox.dataset.price;
+                totalContainer.textContent = `DKK ${price}`;
+            }
+        }
+
+        // Initially update the total on page load
+        updateTotal();
+    </script>
 </body>
 
 </html>
